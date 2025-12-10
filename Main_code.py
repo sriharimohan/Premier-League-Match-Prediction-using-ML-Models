@@ -1,8 +1,8 @@
 import pandas as pd
-data = pd.read_csv("England.csv")
+df = pd.read_csv("England.csv")
 
-data.head()
-data.info()
+df.head()
+df.info()
 
 required_cols = ['FT Result', 'H Shots', 'A Shots', 'H SOT', 'A SOT', 'H Fouls', 'A Fouls', 'H Corners', 'A Corners', 'H Yellow', 'A Yellow', 'H Red', 'A Red']
 
